@@ -1,0 +1,15 @@
+{
+  "name": "node-mongo-sample",
+  "version": "0.0.1",
+  "description": "just a sample app with node and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilson Tayar",
+  "license": "MIT",
+  "repository": "github.com/wilsontayar/node-mongo-sample",
+  "dependencies": {
+    "mongodb": "^1.4.31"
+  }
+}
