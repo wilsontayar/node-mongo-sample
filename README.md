@@ -1,5 +1,5 @@
 # node-mongo-sample
-Just dockerized node app using mongodb as another linked container
+Just a dockerized node app using mongodb as another linked container
 
 # usage
 
