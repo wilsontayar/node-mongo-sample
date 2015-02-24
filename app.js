@@ -83,6 +83,8 @@ function getDefaultForm(callback){
 function getConfiguration() {
 	return {
 		port: 3000,
-		db: "mongodb://localhost:27017/node-mongo-sample"
+		db: process.env.NODE_ENV == "production" 
+			? "mongodb://mongo/node-mongo-sample" 
+			: "mongodb://localhost:27017/node-mongo-sample"
 	};
 };
