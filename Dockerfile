@@ -13,7 +13,7 @@ COPY . /src
 WORKDIR /src
 RUN npm install
 
-ENV NODE_ENV docker
+ENV NODE_ENV production
 
 EXPOSE 3000
 
